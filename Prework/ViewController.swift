@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             TextLabel.text = newText
         }
         else if (newText == "" || newText == nil) {
-            TextLabel.text = "Hello From Jason"
+            TextLabel.text = "Hello From Jason!"
         }
         TextField.resignFirstResponder()
     }
