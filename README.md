@@ -4,7 +4,7 @@
 Can enter text into textfield and click button to change the text in the label. Can change color in text label. Can click button to make text label say "Goodbye 👋". Can click button to change background color. Can tap on background view to restore everything to default settings.
 
 ### App Walk-though
-<img src="http://g.recordit.co/p2xWOGV0ZT.gif" width=200><br>
+<img src="http://g.recordit.co/Zk2tNOJNSb.gif" width=200><br>
 
 ### Required User Stories
 - [x] 1. User sees custom text in a label - Hello from {name}!
