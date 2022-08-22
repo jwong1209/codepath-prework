@@ -29,8 +29,9 @@ class ViewController: UIViewController {
             TextLabel.text = newText
         }
         else if (newText == "" || newText == nil) {
-            TextLabel.text = "Hello From Jason!"
+            TextLabel.text = "Hello from Jason!"
         }
+        TextField.text = ""
         TextField.resignFirstResponder()
     }
     
@@ -41,5 +42,12 @@ class ViewController: UIViewController {
     @IBAction func ChangeBackgroundColor(_ sender: Any) {
         Background.backgroundColor = UIColor.orange
     }
+    
+    @IBAction func tapBackground(_ sender: Any) {
+        TextLabel.text = "Hello from Jason!"
+        TextLabel.textColor = UIColor.red
+        Background.backgroundColor = UIColor.systemTeal
+    }
+    
 }
 
